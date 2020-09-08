@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1" />
+	<title>Spring Boot Application</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link rel="stylesheet" th:href="@{/css/styles.css}"/>
+	<script type="text/javascript" th:src="@{/js/functions.js}"></script>  
+</head>
+<body>
+	<img class="whiteButton" src="/images/whitebutton.png" />
+	<a th:href="@{/saveemployees}"><img class="homeImg" src="/images/home.png" /></a>
+	<img class="propImg" src="/images/settings.png" />
+	<img id="bdayscroll" class="scroll" src="/images/bdayscroll.png" />
+	<img id="propertiesscroll" class="scroll" src="/images/propertiesscroll.png" />
+</body>
+</html>

@@ -1,0 +1,269 @@
+@charset "ISO-8859-1";
+
+.homeImg {
+    width: 5%;
+    position: absolute;
+    top: 30%;
+    left: 46%;
+}
+
+.propImg {
+    width: 6%;
+    position: absolute;
+    top: 55%;
+    left: 46%;	
+}
+
+.whiteButton {   
+    position: absolute;
+    top: 2%;
+    left: 25%;
+    width: 47%;
+}
+
+.scroll{	
+    z-index: -1;
+    width: 1%;
+    height: 20%;
+    position: absolute;
+    top: 35%;
+    left: 63%;	
+}
+
+#mainbox {	
+    width: 27%;
+    height: 30%;
+    border: 2px solid black;
+    position: absolute;
+    top: 29%;
+    left: 35%;	
+}
+
+.col1 {	
+    position: absolute;
+    top: 20%;
+    left: 26%;	
+}
+
+.col2 {	
+    position: absolute;
+    top: 37%;
+    left: 26%;	
+}
+
+.col3 {	
+    position: absolute;
+    top: 54%;
+    left: 22%;
+    width: 45%;
+}
+
+.submitEmp {	
+    position: absolute;
+    top: 74%;
+    left: 45%;	
+}
+
+.successtext {	
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    z-index: 1;
+    width: 21%;
+}
+
+.rightpopper {	
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    width: 25%;	
+}
+
+.shower {	
+    position: absolute;
+    top: 25%;
+    left: 22%;
+    width: 13%;	
+}
+
+.spreader {	
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    width: 9%;	
+}
+
+.cupcake {	
+    width: 25%;
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    z-index: -1;
+}
+
+.stackcake{	
+    width: 10%;
+    position: absolute;
+    top: 54%;
+    left: 36%;	
+}
+
+.eyecake {	
+    width: 8%;
+    position: absolute;
+    top: 57%;
+    left: 17%;	
+} 
+
+.baloon1 {
+    position: absolute;
+    top: 0%;
+    left: 90%;
+    width: 10%;
+}
+
+.baloon2 {
+    position: absolute;
+    top: 0%;
+    left: 81%;
+    width: 8%;	
+}
+
+.baloon3 {	
+    width: 6%;
+    position: absolute;
+    top: 11%;
+    left: 89%;	
+}
+
+.family {	
+    width: 3%;
+    position: absolute;
+    top: 34%;
+    left: 66%;
+}
+
+.frame1 {	
+    position: absolute;
+    top: 29%;
+    left: 64%;
+    width: 7%;	
+}
+
+.frame2 {	
+    position: absolute;
+    top: 54%;
+    left: 64%;
+    width: 7%;	
+}
+
+.gears {	
+    width: 3%;
+    position: absolute;
+    top: 58%;
+    left: 66%;	
+}
+
+.hidingdiv1 {
+	width: 8%;
+	height: 15%;
+	position: absolute;
+	top: 28%;
+	left: 62%;
+	z-index: -1;
+	background: #ffffff;
+}
+
+.hidingdiv2 {
+	width: 8%;
+	height: 12%;
+	position: absolute;
+	top: 55%;
+	left: 62%;
+	z-index: -1;
+	background: #ffffff;
+}
+
+#birthdayscrollIndex {
+	z-index: -2;
+    width: 1%;
+    height: 14%;
+    position: absolute;
+    top: 28%;
+    left: 65%;
+}
+
+.mainframe {
+    z-index: -1;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 51%;
+}
+
+#propertiesscrollIndex {
+	z-index: -2;
+    width: 1%;
+    height: 14%;
+    position: absolute;
+    top: 54%;
+    left: 67%;
+}
+
+.successdiv {	
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;	
+    background: #82b9acfa;
+    display:none;
+}
+
+.propbuttonDiv {
+	position: absolute;
+    top: 41%;
+	left: 34%;
+    width: 10%;
+    height: 6%;
+    background-color: rgb(230, 230, 230);
+    background-image: radial-gradient(circle farthest-side, rgb(242, 242, 242),rgb(230, 230, 230));
+    border-radius: 20px;
+    z-index: 9;	
+}
+
+.propbackgroundimg {
+	position: absolute;
+	top: 38%;
+	left: 32%;
+	width: 14%;
+	height: 12%;
+	background: url(/images/dots.png);
+	/* background-repeat: no-repeat; */
+	/* background-size: contain; */
+	border-radius: 50px;
+	display: none;
+}
+
+.empbuttonDiv {
+	position: absolute;
+    top: 41%;
+	left: 55%;
+    width: 10%;
+    height: 6%;
+    background-color: rgb(230, 230, 230);
+    background-image: radial-gradient(circle farthest-side, rgb(242, 242, 242),rgb(230, 230, 230));
+    border-radius: 20px;
+    z-index: 9;	
+}
+
+.empbackgroundimg {
+	position: absolute;
+	top: 38%;
+	left: 53%;
+	width: 14%;
+	height: 12%;
+	background: url(/images/dots.png);
+	border-radius: 50px;
+	display: none;
+}

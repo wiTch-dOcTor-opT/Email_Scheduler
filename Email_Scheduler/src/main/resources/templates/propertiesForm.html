@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+	<title>Email Scheduler</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" th:src="@{/js/functions.js}"></script>
+  	<link rel="stylesheet" th:href="@{/css/styles.css}"/>
+</head>
+<body>
+  <br /><br />
+  <div class="container">
+   <br />
+   <h2 align="center">Edit Application Properties</h2>
+   <br />
+   <div class="table-responsive">
+    <table class="table table-bordered" id="properties_table">
+    </table>
+    <div style="display: inline;margin-left: 1%;">
+     <img src="/images/save.png" style="width:4%;margin-left: 47%;" data-toggle="tooltip" title="Save Table" name="save_properties" id="save_properties"></img>
+    </div>
+    <div align="center" style="display:none">
+     <button type="button" name="displayproperties" id="displayproperties" class="btn btn-info"></button>
+    </div>
+    <br />
+    <div class="successdiv">
+    	<img class="successtext" src="/images/saved.png" />
+		<img class="rightpopper" src="/images/rt_popper.gif" />
+		<img class="shower" src="/images/shower.gif" />
+		<img class="spreader" src="/images/spreader.gif" />
+    </div>
+   </div>
+   
+  </div>
+ </body>
+</html>

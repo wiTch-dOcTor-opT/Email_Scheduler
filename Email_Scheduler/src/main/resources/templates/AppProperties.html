@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>App Properties</title>
+</head>
+<body>
+<form th:action="@{/properties}" th:object="${properties}" method="post">
+	  <div class="col-md-6 form-group">
+            <label>From Email: </label>
+            <input type="text" class="form-control" th:field="*{fromEmail}" />
+       </div>
+       <div class="col-md-6 form-group">
+            <label>DL Email: </label>
+            <input type="text" class="form-control" th:field="*{DL_Email}" />
+       </div>
+       <div class="col-md-6 form-group">
+       		<input type="submit" value="Submit" />
+       </div>
+</form>
+</body>
+</html>
